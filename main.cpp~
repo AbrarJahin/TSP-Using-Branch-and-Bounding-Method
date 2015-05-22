@@ -84,3 +84,4 @@ int least(int c)
 	cost+=kmin;
 	return nc;
 }
+
