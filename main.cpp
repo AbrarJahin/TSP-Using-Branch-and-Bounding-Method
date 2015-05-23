@@ -104,7 +104,7 @@ void mincostCalculation(int city)
 	visited[city]=1;
 	printf("%d ===> ",city+1);
 	ncity=findMinValue(city);
-	if(ncity==999)
+	if(ncity==MAX_DISTANCE)
 	{
 		ncity=0;
 		printf("%d",ncity+1);
